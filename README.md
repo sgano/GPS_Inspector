@@ -19,17 +19,8 @@ List of the major features:
 - Polar plot showing the azimuth/elevation locations of the GPS satellites
 - Raw NMEA data display
 - Downloads/Install
-- GPS Inspector requires java 1.6. Beyond that all other needed libraries are already included. To run the program you need to download two items, first the program itself (1) and second your computer specific binary files (2).
 
-(1) GpsInspector.zip (if you are interested here is the source code: GpsInspector_src.zip
 
-(2) Binaries for your specific platform can be downloaded below or directly from JOGL and RXTX. After downloading the binaries place them in the root folder of GpsInspector.
-
-Win32
-Win64
-Linux32
-Linux64
-Mac OS X.5
 To run GPS Inspector in windows you could just double click on the included .exe file, for other systems you can try double clicking on the "GPSInspector.jar" file. If that doesn't work you can run the program from the command line with these options: 
 java -jar GPSInspector.jar -Djava.library.path=. -Xms256m -Xmx1024m
 
